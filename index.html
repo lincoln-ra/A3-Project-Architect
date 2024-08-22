@@ -25,34 +25,51 @@
 
 </head>
 <body class="bg-[#fffffffa] font-family">
-    <nav class="flex justify-between items-center px-5 py-10">
-        <div class="flex justify-between items-center">
-            <i class="fa-solid fa-arrow-up-long w-10 h-10     rounded-full flex justify-center items-center rotate-45 text-bold bg-[#ABEF5F]"></i>
-            <h3 class="text-4xl font-semibold text-black ml-2">Rinterio</h3>
-        </div>
-
-        <div class="hidden lg:flex">
-            <ul class="flex justify-between gap-10">
-                <li class="font-semibold">Home</li>
-                <li>Service</li>
-                <li>Portfolio</li>
-                <li>blog</li>
-                <li>Contact Us</li>
-            </ul>  
-        </div>
-        <div  class="hidden lg:flex justify-between gap-5">
-            <i class="fa-solid fa-magnifying-glass w-12 h-12 rounded-full flex justify-center items-center bg-white border-black-50 border-2 "></i>
-            <i class="fa-solid fa-cart-shopping w-12 h-12 rounded-full flex justify-center items-center bg-white border-black-50 border-2 "></i>
-            <div class="flex justify-between items-center gap-4 bg-[#ABEF5F] px-5 py-2 rounded-full">
-               <h4 class="text-lg font-semibold">Book Consult</h4>
-                <i class="fa-solid fa-arrow-up-long w-10 h-10 rounded-full flex justify-center items-center bg-black rotate-45 border-black-50 border-2 " style="color: #ffffff;"></i>
+    <header>
+        <!-- NavBar -->
+        <nav class="flex justify-between items-center px-5 py-10 lg:mx-20">
+            <div class="flex justify-between items-center">
+                <i class="fa-solid fa-arrow-up-long w-10 h-10     rounded-full flex justify-center items-center rotate-45  bg-[#ABEF5F]"></i>
+                <h3 class="text-4xl font-bold text-black ml-2">Rinterio</h3>
             </div>
-        </div>
-
+    
+            <div class="hidden lg:flex">
+                <ul class="flex justify-between gap-10">
+                    <li class="font-semibold">Home</li>
+                    <li>Service</li>
+                    <li>Portfolio</li>
+                    <li>blog</li>
+                    <li>Contact Us</li>
+                </ul>  
+            </div>
+            <div  class="hidden lg:flex justify-between gap-5">
+                <i class="fa-solid fa-magnifying-glass w-12 h-12 rounded-full flex justify-center items-center bg-white border-black-50 border-2 "></i>
+                <i class="fa-solid fa-cart-shopping w-12 h-12 rounded-full flex justify-center items-center bg-white border-black-50 border-2 "></i>
+                <div class="flex justify-between items-center gap-4 bg-[#ABEF5F] px-5 py-2 rounded-full">
+                   <h4 class="text-lg font-semibold">Book Consult</h4>
+                    <i class="fa-solid fa-arrow-up-long w-10 h-10 rounded-full flex justify-center items-center bg-black rotate-45 border-black-50 border-2 " style="color: #ffffff;"></i>
+                </div>
+            </div>
+    
+            
+            <div class="lg:hidden">
+                <i class="fa-solid fa-bars w-12 h-12 rounded-full flex justify-center items-center bg-white border-black-50 border-2 "></i>
+            </div>
+        </nav>
         
-        <div class="lg:hidden">
-            <i class="fa-solid fa-bars w-12 h-12 rounded-full flex justify-center items-center bg-white border-black-50 border-2 "></i>
+        <!-- Banner -->
+         <div class="mx-5 lg:mx-20">
+        <div class="mx-10">
+            <img class="lg:mx-auto" src="assets/banner.png" alt="">
         </div>
-    </nav>
+        <h1 class="font-extrabold text-3xl text-center px-5 mb-5 lg:text-6xl lg:mx-24">A barn house of this design  has a striking appearance</h1>
+        <p class="text-center mb-5 lg:mx-36">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents, and large windows that flood the space with natural light.</p>
+        <Button class="bg-[#ABEF5F80] w-full rounded-full flex items-center justify-center gap-5 py-2 px-4 mx-auto lg:w-auto">
+            <h4 class="font-bold text-lg">View Details </h4>
+            <i class="fa-solid fa-arrow-up-long w-10 h-10     rounded-full flex justify-center items-center rotate-45  bg-[#ABEF5F]"></i>
+        </Button>
+         </div>
+    </header>
+    
 </body>
 </html>
