@@ -1,3 +1,7 @@
 .font-family{
     font-family: "Manrope", sans-serif;
+    
+}
+p {
+    opacity: .5;
 }
