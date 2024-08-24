@@ -26,7 +26,11 @@
 </head>
 <body class=" font-family">
     <header class="bg-gradient-to-b from-gray-100 to-white">
+
+
         <!-- NavBar -->
+
+
         <nav class="flex justify-between items-center px-5 py-10 lg:mx-20">
             <div class="flex justify-between items-center">
                 <i class="fa-solid fa-arrow-up-long w-10 h-10     rounded-full flex justify-center items-center rotate-45  bg-[#ABEF5F]"></i>
@@ -47,30 +51,53 @@
                 <i class="fa-solid fa-cart-shopping w-12 h-12 rounded-full flex justify-center items-center bg-white border-black-50 border-2 "></i>
                 <div class="flex justify-between items-center gap-4 bg-[#ABEF5F] px-5 py-2 rounded-full">
                    <h4 class="text-lg font-semibold">Book Consult</h4>
-                    <i class="fa-solid fa-arrow-up-long w-10 h-10 rounded-full flex justify-center items-center bg-black rotate-45 border-black-50 border-2 " style="color: #ffffff;"></i>
+                    <i class="fa-solid fa-arrow-up-long w-10 h-10 rounded-full flex justify-center items-center bg-black rotate-45 " style="color: #ffffff;"></i>
                 </div>
             </div>
     
             
-            <div class="lg:hidden">
-                <i class="fa-solid fa-bars w-12 h-12 rounded-full flex justify-center items-center bg-white border-black-50 border-2 "></i>
+            <div class="">   
             </div>
+            <div class="lg:hidden dropdown dropdown-end">
+                <div tabindex="0" role="button" class="btn m-1"><i class="fa-solid fa-bars w-12 h-12 rounded-full flex justify-center items-center bg-white border-black-50 border-2 "></i>
+                </div>
+                <ul tabindex="0" class="dropdown-content menu bg-base-100 rounded-box z-[1] w-52 p-2 shadow">
+                  <li><a>Home</a></li>
+                  <li><a>Service</a></li>
+                  <li><a>Portfolio</a></li>
+                  <li><a>Blog</a></li>
+                  <li><a>Connect Us</a></li>
+                </ul>
+                
+              </div>
         </nav>
         
+
         <!-- Banner -->
+
+
         <div class="mx-5 lg:mx-20">
         <div class="mx-10">
             <img class=" mb-10 lg:mx-auto" src="assets/banner.png" alt="">
         </div>
         <h1 class="font-extrabold text-4xl text-center mb-5 lg:text-6xl lg:mx-24">A barn house of this design  has a striking appearance</h1>
         <p class="text-center mb-5 lg:mx-36">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents, and large windows that flood the space with natural light.</p>
-        <Button class="bg-[#ABEF5F80] w-full rounded-full flex items-center justify-center gap-5 py-2 px-4 mx-auto lg:w-auto">
+        <Button class="border-2 border-[#acef5f] bg-[#ABEF5F80] w-full rounded-full flex items-center justify-center gap-5 py-2 px-4 mx-auto lg:w-auto">
             <h4 class="font-bold text-lg">View Details </h4>
             <i class="fa-solid fa-arrow-up-long w-10 h-10     rounded-full flex justify-center items-center rotate-45  bg-[#ABEF5F]"></i>
         </Button>
          </div>
     </header>
+
+
+
+
     <main>
+
+
+        <!-- About section -->
+
+
         <section class="bg-[#4949491c] mt-10 px-5 lg:px-24 py-10">
             <div class="flex flex-col gap-5 lg:flex-row justify-between">
                 <div class="lg:mt-7">
@@ -87,8 +114,8 @@
                     <div class="text-center lg:text-left mt-5">
                         <h2 class="font-bold text-3xl mb-5">We design thoughtful, liveable spaces
                         </h2>
-                        <p>
-                            The barn house captivates with its blend of rustic charm and  modern sophistication, featuring weathered wood, sleek metal accents.
+                        <p class="opacity-100">
+                            We blend rustic charm with modern sophistication, creating inviting spaces with weathered wood, sleek metal accents.
                         </p>
                     </div>
                     <div class="flex gap-5 bg-white p-4 rounded-2xl my-5 lg:items-center">
@@ -97,7 +124,7 @@
                         </div>
                         <div>
                             <h4 class="font-semibold text-xl pb-4">commercial</h4>
-                            <p>The barn house captivates with its blend of rustic charm and modern.</p>
+                            <p>Expertly designed spaces that balance functionality with sleek, modern aesthetics.</p>
                         </div>
                     </div>
                     <div class="flex gap-5 bg-white p-4 rounded-2xl relative mt-5 lg:items-center">
@@ -106,13 +133,17 @@
                         </div>
                         <div>
                             <h4 class="font-semibold text-xl mb-4">Residential</h4>
-                            <p >The barn house captivates with its blend of rustic charm and modern.</p>
+                            <p >Warm, inviting homes that combine timeless charm with contemporary sophistication.</p>
                         </div>
                     </div>
                 </div>
                     <img class="object-cover h-60 lg:h-full rounded-2xl" src="assets/Rectangle.png" alt="">   
             </div>
         </section>
+
+
+        <!-- Work process -->
+
 
         <section class="bg-[#4949491c] py-16 px-5 lg:px-24">
             <div class="flex items-center justify-center">
@@ -125,33 +156,37 @@
 
             <div class="text-center pb-5">
                 <h2 class="text-4xl font-bold py-5">Our Works Process</h2>
-                <p class="lg:px-72">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.</p>
+                <p class="lg:px-72">We start by understanding your vision, then meticulously plan every detail to ensure seamless execution.</p>
             </div>
-            <div class="flex flex-col lg:flex-row gap-5">
+            <div class="flex flex-col lg:flex-row justify-between gap-5">
                 <div class="bg-[#E7C1D3] p-5 rounded-2xl">
                     <img class="py-2" src="assets/concept.png" alt="">
                     <h3 class="text-xl font-semibold pb-2">Concept</h3>
-                    <p class="pr-8">The barn house captivates with its blend of rustic charm and modern.</p>
+                    <p class="pr-8">Melding rustic charm with modern sophistication for timeless appeal.</p>
                 </div>
                 <div class="bg-[#EFDA6E] p-5 rounded-2xl">
                     <img class="py-2" src="assets/flow-chart.png" alt="">
                     <h3 class="text-xl font-semibold pb-2">Design Process</h3>
-                    <p class="pr-8">The barn house captivates with its blend of rustic charm and modern.</p>
+                    <p class="pr-8">Integrates weathered wood, sleek metal accents, and expansive windows.</p>
                 </div>
                 <div class="bg-[#A4DAC3] p-5 rounded-2xl">
                     <img class="py-2" src="assets/vision.png" alt="">
                     <h3 class="text-xl font-semibold pb-2">Supervision</h3>
-                    <p class="pr-8">The barn house captivates with its blend of rustic charm and modern.</p>
+                    <p class="pr-8">Ensures seamless blending of materials and adherence to design vision.</p>
                 </div>
                 <div class="bg-[#77AAEA] p-5 rounded-2xl">
                     <img class="py-2" src="assets/budget-planning.png" alt="">
                     <h3 class="text-xl font-semibold pb-2">Budget planning</h3>
-                    <p class="pr-8">The barn house captivates with its blend of rustic charm and modern.</p>
+                    <p class="pr-8">Carefully managed to balance aesthetics with cost-effectiveness and quality.</p>
                 </div>
             </div>
         </section>
         
-        <section class="bg-[#4949491c] bg- px-5 lg:bg-white px-24 pb-20 lg:py-20 lg:px-24">
+
+        <!-- Portfolio  -->
+
+
+        <section class="bg-[#4949491c] bg- px-5 lg:bg-white pb-20 lg:py-20 lg:px-24">
             <div>
                 <div class="flex justify-center">
                     <button class="flex justify-center items-center bg-[#acef5f6e] rounded-full pr-5">
@@ -162,7 +197,7 @@
                 
                 <div class="text-center py-5">
                     <h1 class="text-4xl font-bold mb-5">Our Latest Portfolio</h1>
-                    <p class="lg:px-60">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.</p>
+                    <p class="lg:px-60 opacity-100">Explore our latest portfolio showcasing innovative designs that merge traditional aesthetics with modern functionality, featuring unique and captivating projects.</p>
                 </div>
 
                 <div class="grid gap-5 lg:grid-cols-12">
@@ -170,7 +205,7 @@
                         <img class="w-full" src="assets/img1.png" alt="">
                         <div>
                             <h3 class="text-xl font-bold my-4">Commercial</h3>
-                            <p>The barn house captivates with its blend of rustic charm and modern. The barn house captivates with its blend of rustic charm and modern.</p>
+                            <p>Our commercial portfolio highlights dynamic spaces designed for functionality, blending aesthetics with practical, business-oriented solutions.</p>
                             <div class="flex gap-3 items-center mt-4">
                                 <h4 class="text-xl font-semibold">
                                     View Details 
@@ -190,7 +225,7 @@
                         <img class="w-full " src="assets/img4.png" alt="">
                         <div>
                             <h3 class="text-xl font-bold my-4">Commercial</h3>
-                            <p>The barn house captivates with its blend of rustic charm and modern.</p>
+                            <p>Our commercial projects blend aesthetics with practicality for exceptional results.</p>
                             <div class="flex gap-3 items-center mt-4">
                                 <h4 class="text-xl font-semibold">
                                     View Details 
@@ -212,24 +247,37 @@
             </div>
         </section>
 
-        <section class="bg-[url('assets/ubg.webp')] bg-cover px-5 lg:px-36 py-20 mb-20">
+
+        <!-- More Project -->
+
+
+        <section class="bg-[url('assets/ubg.webp')] bg-cover px-5 lg:px-52 py-20 mb-20">
+
+            <div class="flex justify-center">
+                <button class="flex justify-center items-center bg-[#acef5f6e] rounded-full pr-5">
+                    <i class="fa-solid fa-arrow-up-long w-10 h-10 rounded-full flex justify-center items-center rotate-90"></i>
+                    Explore more
+                </button>
+            </div>
+
             <div class="text-center pb-10 px-5 lg:px-36">
-                <h1 class="text-4xl font-bold mb-5 ">More Projects</h1>
-                <p class="opacity-100">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit, asperiores excepturi. Obcaecati, repellendus? Placeat facere distinctio blanditiis, hic sit accusantium?
+                <h1 class="text-4xl font-bold my-5 ">Explore More of Our Projects</h1>
+                <p>
+                    Discover more of our projects, where creativity meets craftsmanship, delivering distinctive and stylish designs that stand out and inspire.
                 </p>
             </div>
+
             <div class="carousel w-full rounded-2xl ">
 
                 <div id="slide1" class="carousel-item relative w-full">
                   <img
                     src="assets/p1.png"
                     class="w-full" />
-                  <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
-                    <a href="#slide4" class="btn btn-circle">❮</a>
+                  <div class="btn-hover absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                    <a href="#slide4" class="btn btn-circle ">❮</a>
                     <a href="#slide2" class="btn btn-circle">❯</a>
                   </div>
-                  <button class="absolute bottom-2 right-2  flex justify-center items-center bg-[#acef5f6e] rounded-full pl-5">
+                  <button class=" absolute bottom-2 right-2  flex justify-center items-center bg-[#acef5f6e] rounded-full pl-5">
                     
                     <a href="">Details</a>
                     <i class="fa-solid fa-arrow-up-long w-8 h-8 rounded-full flex justify-center items-center rotate-45"></i>
@@ -240,7 +288,7 @@
                     <img
                     src="assets/p2.png"
                     class="w-full" />
-                  <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                  <div class="btn-hover absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
                     <a href="#slide1" class="btn btn-circle">❮</a>
                     <a href="#slide3" class="btn btn-circle">❯</a>
                   </div>
@@ -248,13 +296,14 @@
                     
                     <a href="">Details</a>
                     <i class="fa-solid fa-arrow-up-long w-8 h-8 rounded-full flex justify-center items-center rotate-45"></i>
-                </button>
+                    </button>
                 </div>
+
                 <div id="slide3" class="carousel-item relative w-full">
                   <img
                     src="assets/p3.png"
                     class="w-full" />
-                  <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                  <div class=" btn-hover absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
                     <a href="#slide2" class="btn btn-circle">❮</a>
                     <a href="#slide4" class="btn btn-circle">❯</a>
                   </div>
@@ -262,26 +311,85 @@
                     
                     <a href="">Details</a>
                     <i class="fa-solid fa-arrow-up-long w-8 h-8 rounded-full flex justify-center items-center rotate-45"></i>
-                </button>
+                    </button>
                 </div>
+
                 <div id="slide4" class="carousel-item relative w-full">
                   <img
                     src="assets/p4.png"
                     class="w-full" />
-                  <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                  <div class="btn-hover absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                    
                     <a href="#slide3" class="btn btn-circle">❮</a>
-                    <a href="#slide1" class="btn btn-circle">❯</a>
+                    <a href="#slide5" class="btn btn-circle">❯</a>
+
                   </div>
                   <button class="absolute bottom-2 right-2  flex justify-center items-center bg-[#acef5f6e] rounded-full pl-5">
                     
                     <a href="">Details</a>
                     <i class="fa-solid fa-arrow-up-long w-8 h-8 rounded-full flex justify-center items-center rotate-45"></i>
-                </button>
+                    </button>
                 </div>
+
+                <div id="slide5" class="carousel-item relative w-full">
+                    <img
+                      src="assets/p5.png"
+                      class="w-full" />
+                    <div class="btn-hover absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                      
+                      <a href="#slide4" class="btn btn-circle">❮</a>
+                      <a href="#slide6" class="btn btn-circle">❯</a>
+                      
+                    </div>
+                    <button class="absolute bottom-2 right-2  flex justify-center items-center bg-[#acef5f6e] rounded-full pl-5">
+                      
+                      <a href="">Details</a>
+                      <i class="fa-solid fa-arrow-up-long w-8 h-8 rounded-full flex justify-center items-center rotate-45"></i>
+                      </button>
+                  </div>
+
+                  <div id="slide6" class="carousel-item relative w-full">
+                    <img
+                      src="assets/p6.png"
+                      class="w-full" />
+                    <div class="btn-hover absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                      
+                      <a href="#slide5" class="btn btn-circle">❮</a>
+                      <a href="#slide7" class="btn btn-circle">❯</a>
+                      
+                    </div>
+                    <button class="absolute bottom-2 right-2  flex justify-center items-center bg-[#acef5f6e] rounded-full pl-5">
+                      
+                      <a href="">Details</a>
+                      <i class="fa-solid fa-arrow-up-long w-8 h-8 rounded-full flex justify-center items-center rotate-45"></i>
+                      </button>
+                  </div>
+
+                  <div id="slide7" class="carousel-item relative w-full">
+                    <img
+                      src="assets/p7.png"
+                      class="w-full" />
+                    <div class="btn-hover absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                      
+                      <a href="#slide6" class="btn btn-circle">❮</a>
+                      <a href="#slide1" class="btn btn-circle">❯</a>
+                      
+                    </div>
+                    <button class="absolute bottom-2 right-2  flex justify-center items-center bg-[#acef5f6e] rounded-full pl-5">
+                      
+                      <a href="">Details</a>
+                      <i class="fa-solid fa-arrow-up-long w-8 h-8 rounded-full flex justify-center items-center rotate-45"></i>
+                      </button>
+                  </div>
+
               </div>
         </section>
 
-        <section class="bg-[url('assets/bg.jpg')] bg-cover px-5 py-10 my-2 lg:px-52">
+
+        <!-- Connect -->
+
+
+        <section class="bg-[url('assets/bg.jpg')] bg-cover bg-opacity-20 px-5 py-20 my-2 lg:px-52">
             <div class="flex justify-center">
                 <button class="flex justify-center items-center bg-[#acef5f6e] rounded-full pr-5">
                     <i class="fa-solid fa-arrow-up-long w-10 h-10 rounded-full flex justify-center items-center rotate-90"></i>
@@ -291,7 +399,7 @@
 
             <div class="text-center mb-5">
                 <h2 class="text-4xl font-bold py-5 l">Let’s Discuss Next Project</h2>
-                <p class="lg:px-20">The barn house captivates with its blend of rustic charm and  modern sophistication, featuring weathered wood, sleek metal accents.  </p>
+                <p class="lg:px-20">Let’s discuss your vision and ideas to create something exceptional together. We're eager to collaborate and bring your project to life.</p>
             </div>
 
             <div>
@@ -307,11 +415,15 @@
             </div>
             <div class="flex justify-center items-center gap-4 bg-[#ABEF5F] px-5 py-2 rounded-full mt-5">
                    <h4 class="text-xl font-bold">Send mail</h4>
-                    <i class="fa-solid fa-arrow-up-long w-10 h-10 rounded-full flex justify-center items-center bg-black rotate-45 border-black-50 border-2 " style="color: #ffffff;"></i>
+                    <i class="fa-solid fa-arrow-up-long w-10 h-10 rounded-full flex justify-center items-center bg-black rotate-45" style="color: #ffffff;"></i>
                 </div>
         </section>
     </main>
 </body>
+
+
+
+
 <footer class="bg-[#1C1C1C] text-white py-10 lg:px-72">
     <div class="flex justify-center gap-3">
         <i class="fa-solid fa-arrow-up-long w-10 h-10 rounded-full flex justify-center items-center bg-[#abef5f] rotate-45 " style="color: black;"></i>
@@ -319,7 +431,7 @@
         
     </div>
     <p class="text-center px-16 py-5">
-        The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.
+        "Embrace the journey and let your dreams guide you. Together, we’ll build something remarkable. Your vision starts here."
     </p>
 
     <div>
@@ -328,13 +440,13 @@
             <li>Service</li>
             <li>Portfolio</li>
             <li>Blogs</li>
-            <li>Contact Us</li>
+            <li>Connect Us</li>
         </ul>
     </div>
-    <div class="px-10 justify-center flex justify-center">
+    <div class="px-10 flex justify-center">
         <button class="flex justify-center items-center gap-4 bg-[#ABEF5F] px-10 py-2 rounded-full mt-5 w-full lg:w-auto">
-            <h4 class="text-xl text-black font-bold">Book Consult</h4>
-             <i class="fa-solid fa-arrow-up-long w-10 h-10 rounded-full flex justify-center items-center bg-black rotate-45 border-black-50 border-2 " style="color: #ffffff;"></i>
+            <h4 class="text-xl text-black font-extrabold">Book Consult</h4>
+             <i class="fa-solid fa-arrow-up-long w-10 h-10 rounded-full flex justify-center items-center bg-black rotate-45 " style="color: #ffffff;"></i>
         </button>
     </div>
     
